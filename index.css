@@ -735,6 +735,7 @@ iframe {
 
   .main__content h2 {
     font-size: 2rem;
+    padding: 3rem 0;
   }
 
   .main__content p {
@@ -749,6 +750,10 @@ iframe {
   .services__card {
     height: 425px;
     width: 300px;
+  }
+
+  .conclusion__subtitle {
+
   }
 
   iframe {
