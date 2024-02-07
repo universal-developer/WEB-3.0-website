@@ -1,6 +1,6 @@
 <h1>WEB 3.0 Page</h1>
-![JavaScript](https://img.shields.io/badge/-JavaScript-292C34?style=for-the-badge&logo=javascript&logoColor=gold) ![HTML](https://img.shields.io/badge/-HTML-292C34?style=for-the-badge&logo=HTML5) ![CSS](https://img.shields.io/badge/-CSS-292C34?style=for-the-badge&logo=CSS3&logoColor=264de4)
-
+<h4>Used stack:</h4>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 <h2>Pages:</h2>
 
 <h2 align="center">Desktop Version:</h2>
@@ -24,6 +24,6 @@ git clone https://github.com/universal-developer/WEB-3.0-website
 cd WEB-3.0-website
 ```
 
-<h2>And then just put index.html file in your browser ;)</h2>
+<h4>And then just put index.html file in your browser ;)</h2>
 
 <hr>
