@@ -24,6 +24,6 @@ git clone https://github.com/universal-developer/WEB-3.0-website
 cd WEB-3.0-website
 ```
 
-<h4>And then just put index.html file in your browser ;)</h2>
+<h4>And then just put index.html file into your browser ;)</h2>
 
 <hr>
