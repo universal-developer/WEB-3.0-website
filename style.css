@@ -390,9 +390,27 @@ a {
   height: 100%
 }
 
+.conclusion__title h1 {
+  font-size: 2rem;
+  background-color: var(--blue-color);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
 .conclusion__subtitle {
+  font-size: 4rem;
   margin-bottom: 5rem;
   color: var(--html-color);
+  background: #ff8177;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 iframe {
@@ -478,9 +496,9 @@ iframe {
 
 .social__icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 140px;
+  width: 70px;
 }
 
 .website__rights {
@@ -488,6 +506,60 @@ iframe {
 }
 
 /* Mobile versions */
+
+@media screen and (max-width: 1300px) {
+  .services__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  iframe {
+    width: 720px;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90%;
+  }
+
+  .main__img--container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__img--card {
+    height: 425px;
+    width: 425px;
+  }
+
+  .main__content {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .main__content h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .main__content h2 {
+    font-size: 3rem;
+  }
+
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+}
 
 @media screen and (max-width: 960px) {
   .navbar__container {
@@ -583,6 +655,30 @@ iframe {
   }
 }
 
+
+@media screen and (max-width: 820px) {
+  .footer__links {
+    padding-top: 2rem;
+  }
+
+  #footer__logo {
+    margin-bottom: 2rem;
+  }
+
+  .website__rights {
+    margin-bottom: 2rem;
+  }
+
+  .footer__link--wrapper {
+    flex-direction: column;
+  }
+
+  .social__media--wrap {
+    flex-direction: column;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .hero__heading {
     font-size: 60px;
@@ -591,50 +687,28 @@ iframe {
   .hero__description {
     font-size: 48px;
   }
-}
 
-@media screen and (max-width: 1100px) {
-  .main__container {
-    display: grid;
+  .services__wrapper {
     grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    height: 90%;
   }
 
-  .main__img--container {
-    display: flex;
-    justify-content: center;
+
+  .services__card {
+    height: 525px;
+    width: 400px;
   }
 
-  .main__img--card {
-    height: 425px;
-    width: 425px;
-  }
-
-  .main__content {
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-
-  .main__content h1 {
-    font-size: 2.5rem;
-    margin-top: 2rem;
-  }
-
-  .main__content h2 {
-    font-size: 3rem;
-  }
-
-  .main__content p {
-    margin-top: 1rem;
-    font-size: 1.5rem;
+  iframe {
+    width: 480px;
+    height: 240px;
   }
 }
 
 @media screen and (max-width: 480px) {
+  .main {
+    padding: 3rem 0;
+  }
+
   .main__img--card {
     width: 250px;
     height: 250px;
@@ -667,67 +741,31 @@ iframe {
     padding: 12px 36px;
     margin: 2.5rem 0;
   }
-}
 
-@media screen and (max-width: 1300px) {
-  .services__wrapper {
-    grid-template-columns: 1fr 1fr;
+  .services__card {
+    height: 425px;
+    width: 300px;
   }
-}
 
-@media screen and (max-width: 768px) {
-  .services__wrapper {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (max-width: 1270px) {
   iframe {
-    width: 720px;
-    height: 420px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .footer__link--items {
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .navbar, .hero, .services, .conclusion__container, .footer {
+    padding: 3rem 0;
   }
 }
 
-@media screen and (max-width: 768px) {
-  iframe {
-    width: 480px;
-    height: 240px;
-  }
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   iframe {
     width: 300px;
     height: 200px;
-  }
-}
-
-@media screen and (max-width: 820px) {
-  .footer__links {
-    padding-top: 2rem;
-  }
-
-  #footer__logo {
-    margin-bottom: 2rem;
-  }
-
-  .website__rights {
-    margin-bottom: 2rem;
-  }
-
-  .footer__link--wrapper {
-    flex-direction: column;
-  }
-
-  .social__media--wrap {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .footer__link--items {
-    margin: 0;
-    padding: 10px;
-    width: 100%;
   }
 }
