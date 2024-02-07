@@ -402,9 +402,9 @@ a {
   margin-bottom: 32px;
 }
 
-.conclusion__subtitle {
-  font-size: 4rem;
-  margin-bottom: 5rem;
+.conclusion__subtitle h2 {
+  font-size: 2rem;
+  margin-bottom: 32px ;
   color: var(--html-color);
   background: #ff8177;
   -webkit-background-clip: text;
@@ -417,7 +417,6 @@ iframe {
   width: 1080px;
   height: 720px;
 }
-
 
 .footer__container {
   background-color: var(--background-color);
@@ -675,6 +674,12 @@ iframe {
 
   .social__media--wrap {
     flex-direction: column;
+  }
+
+  .footer__link--items {
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
   }
 }
 
